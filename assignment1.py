@@ -83,6 +83,54 @@ else:
 
 print(len(string)) # 6
 
+# for doing joining( concatenation) in tupple
+tuple1=('red','yellow','green')
+tuple2=('1','2','3')
+tuple3=tuple1+tuple2
+print(tuple3)  
+
+car = {
+"brand": "Ford"
+,"model": "Mustang",
+"year": 2020}
+x = car.values()
+print(x)
+#before the change
+car["year"] = 2024
+print(x)
+car["year"] = 2025
+print(x)
+print("Yes, 'model' is one of the keys in the  dictionary")
+
+dictionary={
+"brand": "Ford",
+"model": "Mustang",
+"year": 2023}
+dictionary["model"]
+print(dictionary)
+dictionary = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 2026}
+mydict=dictionary.copy()
+print(mydict)
+
+
+#split
+spl="HELLO,WORLD"
+xdd=spl.split(",")
+print(xdd)    
+
+
+#replace
+cff="HI,BROTHER"
+print(cff.replace("E","J")) 
+
+
+
+  
+
+
 
     
 
