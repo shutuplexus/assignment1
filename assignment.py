@@ -88,14 +88,16 @@ print(mydict)
 
 
 #split
-b="HELLO,WORLD"
-c=b.split(",")
-print(c)    
+spl="HELLO,WORLD"
+xdd=spl.split(",")
+print(xdd)    
 
 
 #replace
-a="HI,BROTHER"
-print(a.replace("E","J"))
+cff="HI,BROTHER"
+print(cff.replace("E","J")) 
+
+
 
   
 
