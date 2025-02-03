@@ -52,14 +52,50 @@ def factorial(x):
 
 zx = int(input("enter numbr : ")) 
 r = factorial(zx) 
-print(f"factorial of {zx} is {r}")
+print(f"factorial of {zx} is {r}") 
+
+# for doing joining( concatenation) in tupple
+tuple1=('red','yellow','green')
+tuple2=('1','2','3')
+tuple3=tuple1+tuple2
+print(tuple3)  
+
+car = {
+"brand": "Ford"
+,"model": "Mustang",
+"year": 2020}
+x = car.values()
+print(x)
+#before the change
+car["year"] = 2024
+print(x)
+car["year"] = 2025
+print(x)
+print("Yes, 'model' is one of the keys in the  dictionary")
+
+dictionary={
+"brand": "Ford",
+"model": "Mustang",
+"year": 2023}
+dictionary["model"]
+print(dictionary)
+dictionary = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 2026}
+mydict=dictionary.copy()
+print(mydict)
 
 
+#split
+b="HELLO,WORLD"
+c=b.split(",")
+print(c)    
 
-    
 
-
-
+#replace
+a="HI,BROTHER"
+print(a.replace("E","J"))
 
   
 
